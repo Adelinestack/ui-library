@@ -1,0 +1,78 @@
+button {
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 40px;
+  margin: 10px;
+  color: rgb(66, 65, 65);
+  min-height: 1em;
+  outline: 0;
+  vertical-align: baseline;
+}
+button:hover {
+  cursor: pointer;
+  background: #b1b1b1;
+}
+
+.btn-basic {
+  background: none;
+  border: 1px solid;
+}
+.btn-basic:hover {
+  background: none;
+}
+
+.btn-primary {
+  color: #fff;
+  background: #007dbc;
+}
+.btn-primary:hover {
+  background: #006ba0;
+}
+
+.btn-secondary {
+  color: #fff;
+  background: #2b2b2e;
+}
+.btn-secondary:hover {
+  background: #000;
+}
+
+.btn-disabled {
+  color: rgb(185, 179, 179);
+}
+.btn-disabled:hover {
+  color: rgb(185, 179, 179);
+  background: #dcdcdc;
+  cursor: default;
+}
+
+.mini {
+  font-size: 10px;
+}
+.tiny {
+  font-size: 12px;
+}
+.small {
+  font-size: 14px;
+}
+.medium {
+  font-size: 16px;
+}
+.large {
+  font-size: 18px;
+}
+.big {
+  font-size: 20px;
+}
+.huge {
+  font-size: 22px;
+}
+.massive {
+  font-size: 24px;
+}
+
+.btn-circular {
+  border-radius: 50%;
+  padding: 15px;
+}
