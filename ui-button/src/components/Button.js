@@ -1,7 +1,8 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Button.css';
 
-function Button({
+export default function Button({
   content,
   basic,
   primary,
@@ -37,4 +38,17 @@ function Button({
   );
 }
 
-export default Button;
+Button.propTypes = {
+  content: PropTypes.string,
+  basic: PropTypes.bool,
+  primary: PropTypes.bool,
+  secondary: PropTypes.bool,
+  icon: PropTypes.string,
+  color: PropTypes.string,
+  disabled: PropTypes.bool,
+  loading: PropTypes.bool,
+  size: PropTypes.string,
+  circular: PropTypes.bool,
+  onClick: PropTypes.func,
+  onKeyPress: PropTypes.func,
+};

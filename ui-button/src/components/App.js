@@ -49,7 +49,13 @@ export default class App extends Component {
           <Button basic color="black" content="Black" />
         </div>
         <div>
-          <Button disabled>Disabled</Button>
+          <Button
+            disabled
+            onClick={this.handleClick.bind(this)}
+            onKeyPress={this.handleKeyPress.bind(this)}
+          >
+            Disabled
+          </Button>
         </div>
         <div>
           <Button loading>Loading</Button>
